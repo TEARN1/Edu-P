@@ -1,0 +1,162 @@
+:root {
+    --background:white;
+    --button: #000000;
+    --ButtonFontColor: #ffffff;
+    --Wordscolor:black;
+  }
+
+body {
+    background-color: var(--background);
+    font-family: sans-serif;
+    color: #021024;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ************ Nav Style ************* */
+.NavStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: -60px;
+    margin: -9px;
+    background-color: rgb(0, 0, 0,.2);
+    height: 65px;
+    width: 103%;
+    z-index: 1;
+    position: fixed;
+    color: white;
+}
+
+.NameStyle{
+    padding: 10px;
+}
+.Menu {
+    display: flex;
+    font-size: 30px;
+    padding: 0px 40px ;
+    cursor: pointer;
+}
+
+/* ****************** Nav Setting Style ****************** */
+.NavSettingStyle {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10%;
+    border: 1px black;
+    position: fixed;
+    left: 87%;
+    top: 0%;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.closeMenuBtn {
+    color: red;
+}
+
+
+.NavSetting {
+    padding: 50px;
+    background-color: rgb(255, 255, 255,.3);
+}
+
+/* *********** Grade Box Corner ********** */
+
+.GradeBoxCorner {
+    border-radius: 100px;
+}
+
+/* *********** Grade Box Corner ********** */
+
+/* ************* Grade Box ********** */
+
+.GradeBox{
+    padding: 20px;
+    background-color: rgb(241, 157, 171, .2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.GradeBox:hover {
+    background-color: #7DA0CA;
+}
+
+/* ************* Grade Box ********** */
+
+.GradeBoxFlex {
+    display: flex;
+}
+
+#GradeSubjectBox {
+    display: none;
+}
+
+
+/* ************* Grade Box ********** */
+
+
+/* ************* Subject Box ********** */
+.SubjectBox {
+    padding: 30px;
+    background-color: rgb(125, 160, 202);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SubjectBox:hover {
+    background-color: rgb(125, 160, 202,.5);
+}
+
+.ThemeColor {
+    display: flex;
+}
+
+.ColorOne {
+    background: linear-gradient(20deg ,#E5D013, #344932 );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ColorTwo {
+    background: linear-gradient(20deg ,#021024, #7DA0CA );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ColorThree {
+    background: linear-gradient(90deg ,#82401D, #14252C );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ColorFour {
+    background: linear-gradient(90deg ,#7A92A9, white );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ColorFive {
+    background: linear-gradient(90deg ,#17181D, #E09145 );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ColorSix {
+    background: linear-gradient(90deg ,#101916, white );
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ApplyTheme {
+    padding:  20px;
+}
