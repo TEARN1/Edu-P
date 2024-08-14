@@ -51,68 +51,68 @@ Grade11.addEventListener("click", () => {
 
 
 Grade10.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
 });
 
 
 
-    Grade9.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+Grade9.addEventListener("click", () => {
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
 });
 
 
 Grade8.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
 });
 
 
 Grade7.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
 
-    Grade6.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+Grade6.addEventListener("click", () => {
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
 
-    Grade5.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+Grade5.addEventListener("click", () => {
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
 });
 
 
 Grade4.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
 
 Grade3.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
 
 Grade2.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
 
 Grade1.addEventListener("click", () => {
-        const gradeSubjectBox = document.getElementById("GradeSubjectBox");
-        gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
-    });
+    const gradeSubjectBox = document.getElementById("GradeSubjectBox");
+    gradeSubjectBox.style.display = gradeSubjectBox.style.display === "block" ? "none" : "block";
+});
 
-    // Question section ............................
+// Question section ............................
 
-function Term4FirstAdditionaLanguage2023Paper2Totalscore(){
+function Term4FirstAdditionaLanguage2023Paper2Totalscore() {
     var score = 0;
     if (document.getElementById("Term4FirstAdditionaLanguage2023Paper2-1").checked) {
         score++;
